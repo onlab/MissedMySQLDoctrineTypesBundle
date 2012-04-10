@@ -1,10 +1,14 @@
 <?php
-
 namespace Onlab\MissedMySQLDoctrineTypesBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Doctrine\DBAL\Types\Type;
 
+/**
+ * Main bundle bootstrap and setup class
+ * 
+ * @author Marcus Fernandez <marcus at onlab dot org>
+ */
 class OnlabMissedMySQLDoctrineTypesBundle extends Bundle
 {
     public function boot()

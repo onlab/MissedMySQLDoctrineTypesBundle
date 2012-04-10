@@ -1,5 +1,5 @@
 <?php
-namespace Rocket\ProcurementBundle\Types;
+namespace Onlab\MissedMySQLDoctrineTypesBundle\Types;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\Type;

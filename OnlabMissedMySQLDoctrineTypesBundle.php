@@ -12,8 +12,8 @@ class OnlabMissedMySQLDoctrineTypesBundle extends Bundle
         /* @var $em \Doctrine\ORM\EntityManager */
         $em = $this->container->get('doctrine')->getEntityManager();
         
-        Type::addType('enum', 'Rocket\ProcurementBundle\Types\EnumType');
-        Type::addType('set',  'Rocket\ProcurementBundle\Types\SetType');
+        Type::addType('enum', 'Onlab\MissedMySQLDoctrineTypesBundle\Types\EnumType');
+        Type::addType('set',  'Onlab\MissedMySQLDoctrineTypesBundle\Types\SetType');
         
         $em->getConnection()->getDatabasePlatform()->registerDoctrineTypeMapping('enum', 'enum');
         $em->getConnection()->getDatabasePlatform()->registerDoctrineTypeMapping('set',  'set');
